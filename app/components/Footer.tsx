@@ -7,7 +7,7 @@ import { Phone, MapPin, Copyright } from '@phosphor-icons/react'
 export const Footer = () => {
   return (
     <div className='bg-green-800 text-white pb-7'>
-        <div className='w-full px-5 py-10 flex justify-between'>
+        <div className='w-full px-5 py-10 flex flex-col lg:flex-row gap-4 lg:justify-between'>
             <div>
                 <div className='flex items-center gap-2'>
                     <div className='bg-green-700 w-fit rounded-full p-1'>
@@ -18,7 +18,7 @@ export const Footer = () => {
                 <p className='text-sm text-green-200 mt-3'>Your trusted source for fresh, <br /> healthy pork. Family-owned and community- <br />focused. </p>
             </div>
             <div>
-                <h1 className='text-xl font-semibold'>Quick Links</h1>
+                <h1 className='text-xl font-semibold text-nowrap'>Quick Links</h1>
                 <ul className='text-sm text-green-200 mt-3'>
                     <li><Link href='/'>Home</Link></li>
                     <li><Link href='/about'>About</Link></li>
@@ -29,7 +29,7 @@ export const Footer = () => {
             <div>
                 <h1 className='text-xl font-semibold'>Contact</h1>
                 <div className='mt-3 text-sm text-green-200 flex flex-col gap-3'>
-                    <p className='flex items-center gap-2'>
+                    <p className='flex items-center gap-2 text-nowrap'>
                         <Phone size={20} weight="fill" color='pink' />
                         +234 803 714 8244
                     </p>

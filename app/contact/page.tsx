@@ -1,8 +1,14 @@
-import React from 'react'
+import { Contact } from '../components/Contact'
+import { Footer } from '../components/Footer'
+import { Navbar } from '../components/Navbar'
 
 export const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <Navbar />
+      <Contact />
+      <Footer />
+    </div>
   )
 }
 
