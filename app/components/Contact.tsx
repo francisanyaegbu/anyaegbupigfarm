@@ -7,7 +7,7 @@ export const Contact = () => {
     <div className='p-10 bg-pink-50'>
       <h1 className='text-3xl font-bold text-center text-green-800'>Contact Us</h1>
       <p className='mt-2 text-neutral-700 text-center'>We&apos;re here to help. Reach out to us anytime!</p>
-      <div className='grid grid-cols-2 gap-5 mt-8'>
+      <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 mt-8'>
         <div className='flex gap-3 bg-white shadow-md shadow-neutral-300 rounded-2xl p-4 cursor-pointer'
         onClick={() => {
           window.location.href = 'tel:+2348037148244';

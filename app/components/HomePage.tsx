@@ -13,11 +13,11 @@ export const HomePage = () => {
                 <h1 className="text-white text-5xl font-semibold mb-5">Fresh Pork Straight From Our Farm</h1>
                 <p className='text-white text-xl font-semibold mb-5'>Healthy pigs and quality pork at fair prices. Trusted by families and markets across the community.</p>
                 <div className='flex items-center gap-4 mt-10'>
-                    <button className="bg-white duration-150 lg:text-xl text-sm text-green-800 px-4 py-2 rounded-lg font-semibold hover:bg-green-700 hover:text-white flex items-center gap-2 cursor-pointer">
+                    <button className="bg-white duration-150 lg:text-xl text-md text-green-800 px-4 py-2 rounded-lg font-semibold hover:bg-green-700 hover:text-white flex items-center gap-2 cursor-pointer">
                         <ShoppingCartSimple size={20} />
                         Order Now
                     </button>
-                    <button className="ml-2 duration-150 bg-white lg:text-xl text-sm text-green-800 px-4 py-2 rounded-lg font-semibold hover:bg-green-700 hover:text-white flex items-center gap-2 cursor-pointer">
+                    <button className="ml-2 duration-150 bg-white lg:text-xl text-md text-green-800 px-4 py-2 rounded-lg font-semibold hover:bg-green-700 hover:text-white flex items-center gap-2 cursor-pointer">
                         <ChatCircle size={20} />
                         Chat on WhatsApp
                     </button>
