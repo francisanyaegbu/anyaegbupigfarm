@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+ul li {
+    margin-bottom: 2px;
+    font-weight: medium;
+}
+
+ul li:hover {
+    color: white;
+    transition: color 0.3s;
+}
