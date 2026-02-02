@@ -35,7 +35,7 @@ export const Contact = () => {
       <div className='bg-green-900 mt-15 rounded-2xl text-white p-8'>
         <h1 className='text-center text-2xl font-bold mb-2'>Ready To Order?</h1>
         <p className='text-center text-green-200 mb-10'>Place your order now and get it delivered or ready for pickup!</p>
-        <button className='mx-auto mt-4 bg-orange-500 font-semibold text-xl cursor-pointer text-black px-6 py-2 rounded-xl hover:bg-orange-400 transition-colors flex items-center gap-2'>
+        <button className='mx-auto mt-4 bg-green-800 font-semibold text-xl cursor-pointer text-white px-6 py-2 rounded-xl hover:bg-white hover:text-green-800 transition-colors flex items-center gap-2'>
           <ShoppingCart size={32} weight="fill" />
           Order now
         </button>

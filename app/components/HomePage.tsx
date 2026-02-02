@@ -4,7 +4,7 @@ import { Leaf, ShoppingCartSimple, ChatCircle, PiggyBank, UsersFour, MapPinSimpl
 export const HomePage = () => {
   return (
      <div className="w-full h-full">
-        <div className='flex lg:flex-row flex-col items-center justify-between gap-20 lg:h-screen h-fit p-10 pt-15 bg-green-900'>
+        <div className='flex lg:flex-row flex-col items-center justify-between gap-20 lg:h-screen h-fit lg:p-10 p-4 pt-15 bg-green-900'>
             <div className='lg:w-1/2 w-full'>
                 <p className="text-white text-center bg-green-700 px-2 rounded-2xl w-fit flex items-center gap-1 mb-4 text-lg">
                     <Leaf size={16} color='yellow'/>
@@ -29,7 +29,7 @@ export const HomePage = () => {
                     <div className='flex flex-col items-center bg-green-700 p-5 rounded-xl'>
                         <PiggyBank size={52} color='pink' weight='fill' />
                         <p className='text-2xl font-medium mt-2 mb-1'>500+</p>
-                        <p className='text-green-100 font-medium'>Pigs Yearly</p>
+                        <p className='text-green-100 font-medium text-nowrap'>Pigs Yearly</p>
                     </div>
                     <div className='flex flex-col items-center bg-green-700 p-5 rounded-xl'>
                         <UsersFour size={52} weight="fill" color='yellow' />
@@ -44,7 +44,7 @@ export const HomePage = () => {
                     <div className='flex flex-col items-center bg-green-700 p-5 rounded-xl'>
                         <ThumbsUp size={52} weight="fill" color='green' />
                         <p className='text-2xl font-medium mt-2 mb-1'>100%</p>
-                        <p className='text-green-100 font-medium'>Fresh & Healthy</p>
+                        <p className='text-green-100 font-medium text-nowrap'>Fresh & Healthy</p>
                     </div>
                 </div>
             </div>
